@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Sports Station Ctrl+Click Fix",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.sportsstation.id/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
